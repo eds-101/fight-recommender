@@ -6,15 +6,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 const client = new ApolloClient({
-  uri: 'https://48p1r2roz4.sse.codesandbox.io',
+  uri: 'https://ufc-wiki-default-rtdb.europe-west1.firebasedatabase.app/',
 });
 
 client
   .query({
     query: gql`
       {
-        rates(currency: "USD") {
-          currency
+        query upcoming_fights {
+          fighter1
         }
       }
     `
