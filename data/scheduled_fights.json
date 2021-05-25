@@ -1,0 +1,164 @@
+{
+  "Poirier_vs_McGregor": {
+    "event": "UFC 264: Poirier vs McGregor 3",
+    "weight_class": "Lightweight",
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Conor McGregor"
+  },
+  "Burns_vs_Thompson": {
+    "event": "UFC 264: Poirier vs McGregor 3",
+    "weight_class": "Welterweight",
+    "fighter1": "Gilbert Burns",
+    "fighter2": "Stephen Thompson"
+  },
+  "Gane_vs_Volkov": {
+    "event": "UFC Fight Night: Gane vs Volkov",
+    "weight_class": "Heavyweight",
+    "fighter1": "Ciryl Gane",
+    "fighter2": "Alexander Volkov"
+  },
+  "Elliott_vs_Mudaerji": {
+    "event": "UFC Fight Night: Gane vs Volkov",
+    "weight_class": "Flyweight",
+    "fighter1": "Tim Elliott",
+    "fighter2": "Su Mudaerji"
+  },
+  "Jung_vs_Ige": {
+    "event": "UFC on ESPN: The Korean Zombie vs Ige",
+    "weight_class": "Featherweight",
+    "fighter1": "Chan Sung Jung",
+    "fighter2": "Dan Ige"
+  },
+  "Oleinik_vs_Spivak": {
+    "event": "UFC on ESPN: The Korean Zombie vs Ige",
+    "weight_class": "Heavyweight",
+    "fighter1": "Aleksei Oleinik",
+    "fighter2": "Sergey Spivak"
+  },
+  "Erosa_vs_Choi": {
+    "event": "UFC on ESPN: The Korean Zombie vs Ige",
+    "weight_class": "Featherweight",
+    "fighter1": "Julian Erosa",
+    "fighter2": "Seung Woo Choi"
+  },
+  "Adesanya_vs_Vettori": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Middleweight",
+    "fighter1": "Israel Adesanya",
+    "fighter2": "Marvin Vettori"
+  },
+  "Figueiredo_vs_Moreno": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Flyweight",
+    "fighter1": "Deiveson Figueiredo",
+    "fighter2": "Brandon Moreno"
+  },
+  "Edwards_vs_Diaz": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Welterweight",
+    "fighter1": "Leon Edwards",
+    "fighter2": "Nate Diaz"
+  },
+  "Maia_vs_Muhammad": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Welterweight",
+    "fighter1": "Demian Maia",
+    "fighter2": "Belal Muhammad"
+  },
+  "Craig_vs_Hill": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Light Heavyweight",
+    "fighter1": "Paul Craig",
+    "fighter2": "Jamahal Hill"
+  },
+  "Dober_vs_Riddell": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Lightweight",
+    "fighter1": "Drew Dober",
+    "fighter2": "Brad Riddell"
+  },
+  "Anders_vs_Stewart": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Light Heavyweight",
+    "fighter1": "Eryk Anders",
+    "fighter2": "Darren Stewart"
+  },
+  "Murphy_vs_Calderwood": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Women's Flyweight",
+    "fighter1": "Lauren Murphy",
+    "fighter2": "Joanne Calderwood"
+  },
+  "Evloev_vs_Dawodu": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Featherweight",
+    "fighter1": "Movsar Evloev",
+    "fighter2": "Hakeem Dawodu"
+  },
+  "Kianzad_vs_Davis": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Women's Bantamweight",
+    "fighter1": "Pannie Kianzad",
+    "fighter2": "Alexis Davis"
+  },
+  "Camacho_vs_Frevola": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Lightweight",
+    "fighter1": "Frank Camacho",
+    "fighter2": "Matt Frevola"
+  },
+  "Eubanks_vs_Rosa": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Women's Bantamweight",
+    "fighter1": "Sijara Eubanks",
+    "fighter2": "Karol Rosa"
+  },
+  "Hooper_vs_Peterson": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Featherweight",
+    "fighter1": "Chase Hooper",
+    "fighter2": "Steven Peterson"
+  },
+  "Felipe_vs_Collier": {
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Heavyweight",
+    "fighter1": "Carlos Felipe",
+    "fighter2": "Jake Collier"
+  },
+  "Rozenstruik_vs_Sakai": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Heavyweight",
+    "fighter1": "Jairzinho Rozenstruik",
+    "fighter2": "Augusto Sakai"
+  },
+  "Harris_vs_Tybura": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Heavyweight",
+    "fighter1": "Walt Harris",
+    "fighter2": "Marcin Tybura"
+  },
+  "Dolidze_vs_Staropoli": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Middleweight",
+    "fighter1": "Roman Dolidze",
+    "fighter2": "Laureano Staropoli"
+  },
+  "Ponzinibbio_vs_Baeza": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Welterweight",
+    "fighter1": "Santiago Ponzinibbio",
+    "fighter2": "Miguel Baeza"
+  },
+  "Boser_vs_Latifi": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Heavyweight",
+    "fighter1": "Tanner Boser",
+    "fighter2": "Ilir Latifi"
+  },
+  "Trinaldo_vs_Salikhov": {
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Welterweight",
+    "fighter1": "Francisco Trinaldo",
+    "fighter2": "Muslim Salikhov"
+  }
+}

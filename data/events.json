@@ -1,0 +1,32 @@
+{
+  "UFC 264: Poirier vs McGregor 3": {
+    "date": "July 10, 2021",
+    "location": "Paradise, Nevada",
+    "venue": "T-Mobile Arena",
+    "wiki_link": "https://en.wikipedia.org/wiki/UFC_264"
+  },
+  "UFC Fight Night: Gane vs Volkov": {
+    "date": "June 26, 2021",
+    "location": "Enterprise, Nevada",
+    "venue": "UFC Apex",
+    "wiki_link": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Gane_vs._Volkov"
+  },
+  "UFC on ESPN: The Korean Zombie vs Ige": {
+    "date": "June 19, 2021",
+    "location": "Enterprise, Nevada",
+    "venue": "UFC Apex",
+    "wiki_link": "https://en.wikipedia.org/wiki/UFC_on_ESPN:_The_Korean_Zombie_vs._Ige"
+  },
+  "UFC 263: Adesanya vs Vettori 2": {
+    "date": "June 12, 2021",
+    "location": "Glendale, Arizona",
+    "venue": "Gila River Arena",
+    "wiki_link": "https://en.wikipedia.org/wiki/UFC_263"
+  },
+  "UFC Fight Night: Rozenstruik vs Sakai": {
+    "date": "June 5, 2021",
+    "location": "Enterprise, Nevada",
+    "venue": "UFC Apex",
+    "wiki_link": "https://en.wikipedia.org/wiki/UFC_Fight_Night:_Rozenstruik_vs._Sakai"
+  }
+}
