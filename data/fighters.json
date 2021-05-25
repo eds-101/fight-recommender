@@ -95,6 +95,22 @@
     "decision_wins": 5,
     "decision_losses": 1
   },
+   {
+    "name": "Nate Diaz",
+    "wiki_link": "https://en.wikipedia.org/wiki/Nate_Diaz",
+    "is_champion": false,
+    "img_url": "tbc",
+    "fight_count": 32,
+    "wins": 20,
+    "draws": 0,
+    "losses": 12,
+    "ko_wins": 5,
+    "ko_losses": 2,
+    "sub_wins": 11,
+    "sub_losses": 1,
+    "decision_wins": 4,
+    "decision_losses": 9
+  },
   {
     "name": "Marvin Vettori",
     "wiki_link": "https://en.wikipedia.org/wiki/Marvin_Vettori",
@@ -174,5 +190,21 @@
     "sub_losses": 2,
     "decision_wins": 3,
     "decision_losses": 0
+  },
+  {
+    "name": "Marvin Vettori",
+    "wiki_link": "https://en.wikipedia.org/wiki/Marvin_Vettori",
+    "is_champion": false,
+    "img_url": "tbc",
+    "fight_count": 22,
+    "wins": 17,
+    "draws": 1,
+    "losses": 4,
+    "ko_wins": 2,
+    "ko_losses": 0,
+    "sub_wins": 9,
+    "sub_losses": 0,
+    "decision_wins": 6,
+    "decision_losses": 4
   }
 ]

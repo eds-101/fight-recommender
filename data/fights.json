@@ -1,0 +1,51 @@
+[
+  {
+    "fight": "Poirier_vs_McGregor",
+    "event": "UFC 264: Poirier vs McGregor 3",
+    "weight_class": "Lightweight",
+    "fighter1": "Dustin Poirier",
+    "fighter2": "Conor McGregor"
+  },
+  {
+    "fight": "Burns_vs_Thompson",
+    "event": "UFC 264: Poirier vs McGregor 3",
+    "weight_class": "Welterweight",
+    "fighter1": "Gilbert Burns",
+    "fighter2": "Stephen Thompson"
+  },
+  {
+    "fight": "Erosa_vs_Choi",
+    "event": "UFC on ESPN: The Korean Zombie vs Ige",
+    "weight_class": "Featherweight",
+    "fighter1": "Julian Erosa",
+    "fighter2": "Seung Woo Choi"
+  },
+  {
+    "fight": "Adesanya_vs_Vettori",
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Middleweight",
+    "fighter1": "Israel Adesanya",
+    "fighter2": "Marvin Vettori"
+  },
+  {
+    "fight": "Figueiredo_vs_Moreno",
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Flyweight",
+    "fighter1": "Deiveson Figueiredo",
+    "fighter2": "Brandon Moreno"
+  },
+  {
+    "fight": "Edwards_vs_Diaz",
+    "event": "UFC 263: Adesanya vs Vettori 2",
+    "weight_class": "Welterweight",
+    "fighter1": "Leon Edwards",
+    "fighter2": "Nate Diaz"
+  },
+  {
+    "fight": "Trinaldo_vs_Salikhov",
+    "event": "UFC Fight Night: Rozenstruik vs Sakai",
+    "weight_class": "Welterweight",
+    "fighter1": "Francisco Trinaldo",
+    "fighter2": "Muslim Salikhov"
+  }
+]
