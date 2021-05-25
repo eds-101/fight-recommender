@@ -14,3 +14,14 @@ app.use("/graphql", graphqlHTTP({
 app.listen(PORT, () => {
   console.log("Server running");
 });
+
+
+
+// import all
+//// typedefs(Schema)
+//// index (Query, mutation index)
+
+//Server
+// with typeDefs, resolvers
+
+//connect with server
