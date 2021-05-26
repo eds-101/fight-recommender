@@ -1,45 +1,29 @@
 import React from 'react';
-import { StatusBar } from 'expo-status-bar';
-import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink, from } from '@apollo/client';
-import { onError } from '@apollo/client/link/error'
-import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
 
-import GetEvents from './client/Components/GetEvents'
+import EventsScreen from './screens/Events'
 
-const errorLink = onError( ({ graphqlErrors, networkError }) => {
-  if (graphqlErrors) {
-    graphqlErrors.map(({ message, location, path }) => {
-      alert(`Graphql error ${message}`);
-    })
-  }
-})
-
-const link = from([
-  errorLink,
-  new HttpLink({ uri: "http://localhost:5000/graphql"})
-])
-
-const client = new ApolloClient({
-  cache: new InMemoryCache(),
-  link: link
-})
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <ApolloProvider client={client}>
-      <View style={styles.container}>
-        <GetEvents />
-        <StatusBar style="auto" />
-      </View>
-    </ApolloProvider>
+    <NavigationContainer>
+      <Stack.Navigator
+        initialRouteName="Events"
+        screenOptions={{ gestureEnabled: false }}
+      >
+        {/* <Stack.Screen
+          name="Home"
+          component={HomeScreen}
+          options={{ title: 'Home' }}
+        /> */}
+        <Stack.Screen
+          name="Events"
+          component={EventsScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

@@ -36,14 +36,13 @@ function GetEvents() {
   }
 
   return (
-   
     events.map(
       event => 
         <View key={event.id}>
         <Text> {event.name} </Text>
         <Text> {event.dateFormat} </Text>
         </View>
-  )
+    )
   )
 }
 
