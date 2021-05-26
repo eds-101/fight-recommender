@@ -20,7 +20,8 @@ function GetEvents() {
     return events.map((e) => {
       return {
         ...e,
-        dateObj: new Date(e.date)
+        dateObj: new Date(e.date),
+        dateFormat: dateFormatter(new Date(e.date))
       }
     })
   }
@@ -29,13 +30,18 @@ function GetEvents() {
     return events.sort((a,b) => (a.dateObj > b.dateObj ? 1 : -1))
   }
 
+  const dateFormatter = (date) => {
+    let dateString = String(date)
+    return dateString.slice(0,15)
+  }
+
   return (
    
     events.map(
       event => 
         <View key={event.id}>
         <Text> {event.name} </Text>
-        <Text> {event.dateObj.toString()} </Text>
+        <Text> {event.dateFormat} </Text>
         </View>
   )
   )
