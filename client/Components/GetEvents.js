@@ -9,16 +9,33 @@ function GetEvents() {
 
   useEffect(()=> {
     if (data) {
-      setEvents(data.getAllEvents)
+      const updatedEvents = addDateObject(data.getAllEvents)
+      const sortedEvents = dateSorter(updatedEvents)
+      setEvents(sortedEvents)
     }
   },  [data]
   )
 
+  const addDateObject = (events) => {
+    return events.map((e) => {
+      return {
+        ...e,
+        dateObj: new Date(e.date)
+      }
+    })
+  }
+
+  const dateSorter = (events) => {
+    return events.sort((a,b) => (a.dateObj > b.dateObj ? 1 : -1))
+  }
+
   return (
+   
     events.map(
       event => 
         <View key={event.id}>
         <Text> {event.name} </Text>
+        <Text> {event.dateObj.toString()} </Text>
         </View>
   )
   )
