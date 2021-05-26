@@ -4,6 +4,8 @@ import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink, from } from '@ap
 import { onError } from '@apollo/client/link/error'
 import { StyleSheet, Text, View } from 'react-native';
 
+import GetEvents from './client/Components/GetEvents'
+
 const errorLink = onError( ({ graphqlErrors, networkError }) => {
   if (graphqlErrors) {
     graphqlErrors.map(({ message, location, path }) => {
@@ -26,7 +28,7 @@ export default function App() {
   return (
     <ApolloProvider client={client}>
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <GetEvents />
         <StatusBar style="auto" />
       </View>
     </ApolloProvider>
