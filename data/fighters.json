@@ -1,5 +1,6 @@
 [
   {
+    "id": 100,
     "name": "Dustin Poirier",
     "wiki_link": "https://en.wikipedia.org/wiki/Dustin_Poirier",
     "is_champion": false,
@@ -16,6 +17,7 @@
     "decision_losses": 2
   },
   {
+    "id": 106,
     "name": "Conor McGregor",
     "wiki_link": "https://en.wikipedia.org/wiki/Conor_McGregor",
     "is_champion": false,
@@ -32,6 +34,7 @@
     "decision_losses": 0
   },
   {
+    "id": 124,
     "name": "Gilbert Burns",
     "wiki_link": "https://en.wikipedia.org/wiki/Gilbert_Burns_(fighter)",
     "is_champion": false,
@@ -48,6 +51,7 @@
     "decision_losses": 2
   },
   {
+    "id": 197,
     "name": "Stephen Thompson",
     "wiki_link": "https://en.wikipedia.org/wiki/Stephen_Thompson_(fighter)",
     "is_champion": false,
@@ -64,6 +68,7 @@
     "decision_losses": 3
   },
   {
+    "id": 222,
     "name": "Seung Woo Choi",
     "wiki_link": "https://en.wikipedia.org/wiki/Seung_Woo_Choi_(fighter)",
     "is_champion": false,
@@ -80,6 +85,7 @@
     "decision_losses": 1
   },
   {
+    "id": 109,
     "name": "Israel Adesanya",
     "wiki_link": "https://en.wikipedia.org/wiki/Israel_Adesanya",
     "is_champion": true,
@@ -96,6 +102,7 @@
     "decision_losses": 1
   },
    {
+    "id": 112,
     "name": "Nate Diaz",
     "wiki_link": "https://en.wikipedia.org/wiki/Nate_Diaz",
     "is_champion": false,
@@ -112,6 +119,7 @@
     "decision_losses": 9
   },
   {
+    "id": 200,
     "name": "Marvin Vettori",
     "wiki_link": "https://en.wikipedia.org/wiki/Marvin_Vettori",
     "is_champion": false,
@@ -128,6 +136,7 @@
     "decision_losses": 4
   },
   {
+    "id": 901,
     "name": "Deiveson Figueiredo",
     "wiki_link": "https://en.wikipedia.org/wiki/Deiveson_Figueiredo",
     "is_champion": true,
@@ -144,6 +153,7 @@
     "decision_losses": 1
   },
   {
+    "id": 111,
     "name": "Brandon Moreno",
     "wiki_link": "https://en.wikipedia.org/wiki/Brandon_Moreno",
     "is_champion": false,
@@ -160,6 +170,7 @@
     "decision_losses": 5
   },
   {
+    "id": 151,
     "name": "Leon Edwards",
     "wiki_link": "https://en.wikipedia.org/wiki/Leon_Edwards",
     "is_champion": true,
@@ -176,6 +187,7 @@
     "decision_losses": 2
   },
   {
+    "id": 121,
     "name": "Muslim Salikhov",
     "wiki_link": "https://en.wikipedia.org/wiki/Muslim_Salikhov",
     "is_champion": false,
@@ -192,6 +204,7 @@
     "decision_losses": 0
   },
   {
+    "id": 201,
     "name": "Marvin Vettori",
     "wiki_link": "https://en.wikipedia.org/wiki/Marvin_Vettori",
     "is_champion": false,
