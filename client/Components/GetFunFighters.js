@@ -10,7 +10,7 @@ function GetFunFighters() {
   useEffect(()=> {
     if (data) {
       console.log(data)
-      setfunFighters(data.FunFighters)
+      setfunFighters(data.FindFunFighter)
     }
   },  [data]
   )
@@ -19,12 +19,12 @@ function GetFunFighters() {
     funFighters.map(
       fighter =>
       <View style={styles.container} key={fighter.id}>
-        {/* <Image
+        <Image
           style={{width: 120, height: 120}} 
           source={{
           uri: `${fighter.img_url}`
         }}
-        /> */}
+        />
         <View style={{alignItems: 'left', justifyContent: 'center', marginLeft: 10}}>
           <Text style={styles.name}>{fighter.name}</Text>
           <Text>

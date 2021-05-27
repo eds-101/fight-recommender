@@ -2,7 +2,7 @@ import { gql } from "@apollo/client";
 
 export const LOAD_FUN_FIGHTERS = gql`
   query{
-    FunFighters {
+    FindFunFighter {
       id
       name
       fight_count
