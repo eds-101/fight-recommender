@@ -3,6 +3,7 @@ import { gql } from "@apollo/client";
 export const LOAD_FUN_FIGHTERS = gql`
   query{
     FunFighters {
+      id
       name
       fight_count
       wins

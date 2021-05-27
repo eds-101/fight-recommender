@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink, from } from '@apollo/client';
 import { onError } from '@apollo/client/link/error'
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ScrollView } from 'react-native';
 
 import GetFunFighters from '../client/Components/GetFunFighters'
 
@@ -28,7 +28,9 @@ export default function FunFightsScreen() {
   return (
     <ApolloProvider client={client}>
       <View style={styles.container}>
-        <GetFunFighters />
+        <ScrollView>
+          <GetFunFighters />
+        </ScrollView>
         <StatusBar style="auto" />
       </View>
     </ApolloProvider>
