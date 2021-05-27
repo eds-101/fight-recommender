@@ -27,4 +27,4 @@ const FighterType = new GraphQLObjectType({
   })
 })
 
-module.exports = EventType;
+module.exports = FighterType;
