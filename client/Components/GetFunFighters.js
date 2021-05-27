@@ -19,12 +19,12 @@ function GetFunFighters() {
     funFighters.map(
       fighter =>
       <View style={styles.container} key={fighter.id}>
-        <Image
+        {/* <Image
           style={{width: 120, height: 120}} 
           source={{
-          uri: 'https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png'
+          uri: `${fighter.img_url}`
         }}
-        />
+        /> */}
         <View style={{alignItems: 'left', justifyContent: 'center', marginLeft: 10}}>
           <Text style={styles.name}>{fighter.name}</Text>
           <Text>
