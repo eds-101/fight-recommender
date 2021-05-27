@@ -3,12 +3,16 @@ const {
   GraphQLObjectType,
   GraphQLSchema,
   GraphQLInt,
+  GraphQLFloat,
+  GraphQLBoolean,
   GraphQLString,
   GraphQLList,
 } = graphql;
 
 const eventData = require("../../data/events.json")
 const EventType = require('./TypeDefs/EventType')
+const fighterData = require("../../data/fighters.json")
+const FighterType = require('./TypeDefs/FighterType')
 
 const RootQuery = new GraphQLObjectType({
   name: "RootQueryType",
@@ -22,6 +26,46 @@ const RootQuery = new GraphQLObjectType({
     }
   }
 })
+
+const FindFighterQuery = new GraphQLObjectType({
+  name: "FindFighterQueryType",
+  fields: {
+    FunFighters: {
+      type: new GraphQLList(FighterType),
+      args: { kos: { type: GraphQLInt },
+              subs:{ type: GraphQLInt },
+    },
+      resolve(parent, args) {
+        if (args.kos) {
+          return fighterData.filter(fighter => fighter.ko_wins > args.kos)
+          }
+        else if(args.subs) {
+          return fighterData.filter(fighter => fighter.sub_wins > args.subs)
+        }
+        else {
+          return fighterData.filter(fighter => (fighter.ko_wins > 10 || fighter.sub_wins > 6))
+        }
+    }
+  }}
+})
+
+// const FindFighterQuery = new GraphQLObjectType({
+//   name: "FindFighterQueryType",
+//   fields: {
+//     getAFighter: {
+//       type: new GraphQLList(FighterType),
+//       args: { id: { type: GraphQLInt },
+//               name: {type: GraphQLString},
+//     },
+//       resolve(parent, args) {
+//         if (args.id) {
+//           return fighterData.filter(fighter => fighter.id == args.id) }
+//         else if (args.name) {
+//           return fighterData.filter(fighter => fighter.name == args.name) }
+//         }
+//       }
+//     }
+// })
 
 const Mutation = new GraphQLObjectType({
   name: "Mutation",
@@ -43,4 +87,4 @@ const Mutation = new GraphQLObjectType({
   }
 })
 
-module.exports = new GraphQLSchema({ query: RootQuery, mutation: Mutation })
+module.exports = new GraphQLSchema({ query: FindFighterQuery, mutation: Mutation })
