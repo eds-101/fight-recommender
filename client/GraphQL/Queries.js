@@ -8,6 +8,7 @@ export const LOAD_FUN_FIGHTERS = gql`
       wins
       ko_wins
       sub_wins
+      img_url
     }
   }
 `

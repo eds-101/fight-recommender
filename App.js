@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import EventsScreen from './screens/Events'
+import FunFightersScreen from './screens/FunFighters'
 
 const Stack = createStackNavigator();
 
@@ -10,7 +11,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName="Events"
+        initialRouteName="Fun Fighters"
         screenOptions={{ gestureEnabled: false }}
       >
         {/* <Stack.Screen
@@ -21,6 +22,10 @@ export default function App() {
         <Stack.Screen
           name="Events"
           component={EventsScreen}
+        />
+        <Stack.Screen
+          name="Fun Fighters"
+          component={FunFightersScreen}
         />
       </Stack.Navigator>
     </NavigationContainer>
