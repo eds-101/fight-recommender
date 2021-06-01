@@ -17,4 +17,3 @@ app.use(("/graphql", graphqlHTTP({
 app.listen(PORT, () => {
   console.log("Server running");
 });
-

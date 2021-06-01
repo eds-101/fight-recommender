@@ -1,40 +1,26 @@
 const graphql = require("graphql")
 const {
   GraphQLObjectType,
-  GraphQLSchema,
   GraphQLBoolean,
   GraphQLInt,
-  GraphQLFloat,
-  GraphQLBoolean,
   GraphQLString,
   GraphQLList,
 } = graphql;
 
-const eventData = require("../../data/events.json")
-const EventType = require('./TypeDefs/EventType')
 const fighterData = require("../../data/fighters.json")
 const FighterType = require('./TypeDefs/FighterType')
 
-const FindFunFighter = new GraphQLObjectType({
-  name: "FindFunFighterQuery",
+const FindFighterQuery = new GraphQLObjectType({
+  name: "FindFighterQueryType",
   fields: {
-    FindFunFighter: {
-      type: new GraphQLList(FighterType),
-      args: { kos: { type: GraphQLInt },
-              subs:{ type: GraphQLInt },
-    },
+    getAFigher: {
+      type: new GraphQLList(FighterType), //double check type, as its one value only
+      args: { id: { type: GraphQLInt }},
       resolve(parent, args) {
-        if (args.kos) {
-          return fighterData.filter(fighter => fighter.ko_wins > args.kos)
-          }
-        else if(args.subs) {
-          return fighterData.filter(fighter => fighter.sub_wins > args.subs)
-        }
-        else {
-          return fighterData.filter(fighter => (fighter.ko_wins > 10 || fighter.sub_wins > 6))
-        }
+        return fighterData.filter(fighter => fighter.id == args.id) //double check
+      }
     }
-  }}
+  }
 })
 
 const AddFighter = new GraphQLObjectType({
@@ -68,5 +54,4 @@ const AddFighter = new GraphQLObjectType({
   }
 })
 
-module.exports = new GraphQLSchema({ query: FindFunFighter, mutation: AddFighter })
-
+module.exports = new GraphQLSchema({ query: FindFighterQuery, mutation: AddFighter })
