@@ -16,10 +16,13 @@ Key technologies used:
 - Python & BeautifulSoup (Web scraping) to get data from Wikipedia
 
 # How to install and run the program:
+
+Clone the directory
 ```sh
 $ git clone git@github.com:eds-101/fight-recommender.git
 ```
 Use your terminal, navigate to root of this project root folder and run the following commands
+```
 $ yarn
 $ node server/index.js
 ```
